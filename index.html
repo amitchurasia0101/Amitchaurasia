@@ -35,7 +35,7 @@
                 <a href="https://www.facebook.com/friends/requests/?profile_id=100014800350419"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/amit-chaurasia-95b7662a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <button>
+            <button id="myButton">
                 Download CV
             </button>
         </div>
@@ -138,8 +138,17 @@
           <p class="copyright">© 2023 Amtwebdev. All rights reserved.</p>
         </div>
       </footer>
-      
-      
+
+    
+      <script>
+         document.getElementById("myButton").addEventListener("click", function() {
+    window.location.href = "cv.zip";
+  });
+      </script>
+
+
+
+    
 </body>
 
 </html>
