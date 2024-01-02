@@ -455,8 +455,8 @@ input {
     }
 
     .intro-container .text-area {
-        width: 50%;
-        font-size: 8px;
+        width: 63%;
+        font-size: 10px;
     }
 
     .buttonPrimary a {
@@ -484,14 +484,15 @@ input {
     }
 
     .abt-container .text-area {
-        width: 50%;
-        font-size: 8px;
+        width: 63%;
+        font-size: 10px;
         padding: 10px;
     }
 
     .buttonPrimary {
         width: 100%;
         margin: 2px 0;
+        gap: 6px;
     }
 
     button {
@@ -516,15 +517,24 @@ input {
     .btn {
         padding: 9px;
     }
+    h3{
+        margin: 20px auto;
+    }
+    .project {
+        width: 124px;
+        height: 114px;
+    }
+
 
     .gridbox {
-        grid-template-rows: repeat(6, 1fr);
-        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
     }
 
     .latestPro {
         margin: 123px auto;
-        height: 1000px;
+        height: 420px;
     }
 
 }
