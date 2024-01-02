@@ -524,7 +524,9 @@ input {
         width: 124px;
         height: 114px;
     }
-
+    .proBtn {
+            font-size: 15px;
+    }
 
     .gridbox {
         grid-template-rows: repeat(3, 1fr);
